@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+.letter{
+  display: flex;
+  align-items: center;
+}
+
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 8px;
+  border-radius: 4px;
+  background-color: #717171;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 2px 2px 1px #a1a1a1;
+}
